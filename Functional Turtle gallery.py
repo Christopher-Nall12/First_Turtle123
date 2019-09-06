@@ -27,7 +27,7 @@ for i in range(50):
 
 turtle.color("blue")
 turtle.penup()
-turtle.goto(200, 200)
+turtle.goto(0, 0)
 turtle.pendown()
 
 def square(turtle,side):
@@ -37,12 +37,12 @@ def square(turtle,side):
 
 
 
-for i in range(60):
+for i in range(72):
     square(turtle,75)
     turtle.left(5)
 
 turtle.penup()
-turtle.goto(-200, -200)
+turtle.goto(0, 0)
 turtle.pendown()
 size = 0
 
@@ -67,13 +67,13 @@ turtle.pendown()
 
 
 def star(turtle,side):
-    for i in range(4):
+    for i in range(5):
         turtle.right(144)
         turtle.forward(100)
 
 
-for i in range(60):
-    square(turtle,75)
+for i in range(30):
+    star(turtle,75)
     turtle.left(5)
 
 
