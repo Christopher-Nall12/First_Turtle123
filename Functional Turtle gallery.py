@@ -20,10 +20,10 @@ def star(turtle, side):
 
 star(turtle, 75)
 
-for i in range(50):
+for i in range(150):
     star(turtle, 75)
     turtle.right(5)
-    size += 3
+    size += 1
 
 turtle.color("blue")
 turtle.penup()
@@ -62,7 +62,7 @@ for i in range(50):
 
 turtle.penup()
 turtle.color("firebrick")
-turtle.goto(200, -200)
+turtle.goto(-200, 200)
 turtle.pendown()
 
 
@@ -72,7 +72,7 @@ def star(turtle,side):
         turtle.forward(100)
 
 
-for i in range(30):
+for i in range(65):
     star(turtle,75)
     turtle.left(5)
 
